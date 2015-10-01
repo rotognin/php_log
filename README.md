@@ -18,12 +18,12 @@ utilizado para subitens dentro do log.
 O arquivo "config.ini" possui as configurações necessárias para o log. Há comentários no próprio 
 arquivo explicando cada diretiva de configuração.
 
-Exemplo de uso da classe:
+Exemplo de uso da classe: <br>
 <code>
-    $texto = 'Erro na leitura da tabela de usuários.';
-    $id = 'USU_ERR';
-    $nivel = 2;
-    Log::gravaLog($texto, $id, $nivel);
+    $texto = 'Erro na leitura da tabela de usuários.'; <br>
+    $id = 'USU_ERR'; <br>
+    $nivel = 2; <br>
+    Log::gravaLog($texto, $id, $nivel); <br>
 </code>
 
 No arquivo será gravado da seguinte maneira:
