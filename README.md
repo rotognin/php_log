@@ -19,12 +19,10 @@ O arquivo "config.ini" possui as configurações necessárias para o log. Há co
 arquivo explicando cada diretiva de configuração.
 
 Exemplo de uso da classe: <br>
-<code>
-    $texto = 'Erro na leitura da tabela de usuários.'; <br>
-    $id = 'USU_ERR'; <br>
-    $nivel = 2; <br>
-    Log::gravaLog($texto, $id, $nivel); <br>
-</code>
+<code>$texto = 'Erro na leitura da tabela de usuários.'; </code><br>
+<code>$id = 'USU_ERR'; </code><br>
+<code>$nivel = 2; </code><br>
+<code>Log::gravaLog($texto, $id, $nivel); </code><br>
 
 No arquivo será gravado da seguinte maneira:
 USU_ERR ..01/10/2015 - 19:14:30 - Erro na leitura da tabela de usuários.
