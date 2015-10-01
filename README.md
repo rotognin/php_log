@@ -24,8 +24,8 @@ Exemplo de uso da classe: <br>
 <code>$nivel = 2; </code><br>
 <code>Log::gravaLog($texto, $id, $nivel); </code><br>
 
-No arquivo será gravado da seguinte maneira:
-USU_ERR ..01/10/2015 - 19:14:30 - Erro na leitura da tabela de usuários.
+No arquivo será gravado da seguinte maneira: <br>
+<code>USU_ERR ..01/10/2015 - 19:14:30 - Erro na leitura da tabela de usuários.</code>
 
 Essa classe será expandida com funções de leituras, backup do log ao atingir um determinado 
 tamanho em bytes, e funções adicionais para extração de informações do arquivo txt.
